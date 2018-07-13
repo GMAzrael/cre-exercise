@@ -40,6 +40,21 @@ bin/busybox        utils/busybox,shells/busybox-static
 | 1     | Error parsing a line |
 | 2     | Could not download file |
 
+## Testing
+
+Static testing
+
+```
+$ python3 -m flake8
+```
+
+Unit testing (with coverage)
+
+```
+$ python3 -m nose
+```
+
 ## TODOs
 
-* unit tests
+* ~~unit tests~~
+* improve coverage, currently 55%
